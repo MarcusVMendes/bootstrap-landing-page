@@ -1,0 +1,10 @@
+@media (max-width: 991.98px) {
+    #header navbar-colappse {
+        width: 100%;
+    }
+
+    #header .nav-link {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
