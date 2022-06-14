@@ -1,3 +1,4 @@
+/* SLIDER */
 .button {
     text-transform: lowercase;
     font-weight: 500;
@@ -24,3 +25,19 @@
     background-color: var(--primary-dark);
     border-color: var(--primary-dark);
 }
+
+#slider {
+    background: url(../assets/slider-bg.svg) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* /SLIDER */
