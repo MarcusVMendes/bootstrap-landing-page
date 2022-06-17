@@ -1,7 +1,7 @@
 body, html {
     font-family: 'Roboto', sans-serif;
 }
-
+/* HEADER */
 #header {
     width: 100%;
     background-color: transparent;
@@ -33,3 +33,35 @@ body, html {
     border-bottom: solid 4px var(--secondary);
     color: var(--secondary)
 }
+/* /HEADER */
+
+/* CLIENTES */
+#clientes .link-cliente {
+    padding: 0 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--light);
+    height: 100px;
+    transition: all ease-out 0.2s;
+}
+
+#clientes .link-cliente:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+#clientes .link-cliente img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    max-height: 70px;
+    width: 100%;
+}
+
+#clientes .link-cliente img:hover {
+    filter: none;
+    opacity: 1;
+}
+
+/* /CLIENTES */
