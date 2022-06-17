@@ -65,4 +65,50 @@ body, html {
     opacity: 1;
 }
 
+#clientes .cliente-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--light);
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+#clientes .cliente-texto .imagem {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+    color: #b4b4b4;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+#clientes .cliente-texto .imagem span {
+    display: block;
+    color: var(--secondary);
+    font-size: 110px;
+    line-height: 110px;
+    letter-spacing: -10px;
+    font-weight: 900;
+}
+
+#clientes .cliente-texto .telefone {
+    display: flex;
+    font-size: 14px;
+    color: #b4b4b4;
+}
+
+#clientes .cliente-texto .telefone img {
+    margin-right: 10px;
+}
+
+#clientes .cliente-texto .telefone span {
+    font-size: 25px;
+    color: #797979;
+    font-weight: 900;
+    display: block;
+}
+
 /* /CLIENTES */
