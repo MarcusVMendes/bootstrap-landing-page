@@ -39,3 +39,11 @@ jQuery(document).ready(function ($) {
         }
     });
 });
+
+/*
+Filter Layout:
+https://isotope.metafizzy.co/
+
+Light Box Effect:
+https://dimsemenov.com/plugins/magnific-popup/
+*/
