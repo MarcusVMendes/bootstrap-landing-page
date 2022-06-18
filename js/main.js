@@ -27,4 +27,15 @@ jQuery(document).ready(function ($) {
             filter: '*',
         });
     });
+
+    // Magnific-Popup Config
+    $('.grid .popup-link').magnificPopup({
+        type: "image",
+        gallery: {
+            enabled: true,
+            tPrev: "Anterior",
+            tNext: "Próxima",
+            tCounter: "%curr% de %total%"
+        }
+    });
 });
