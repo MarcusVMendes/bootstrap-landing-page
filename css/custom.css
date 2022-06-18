@@ -112,3 +112,19 @@ body, html {
 }
 
 /* /CLIENTES */
+
+/* SERVICOS */
+#servicos .badge {
+    font-weight: 400;
+}
+
+#servicos .element-item img {
+    border-radius: 5px;
+    transition: all ease-out 0.2s;
+}
+
+#servicos .element-item img:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* /SERVICOS */
