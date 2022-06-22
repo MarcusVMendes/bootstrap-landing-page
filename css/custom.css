@@ -211,4 +211,41 @@ body, html {
 #footer .email button {
     margin-left: 20px;
 }
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#footer ul li:first-child {
+    margin-left: 0;
+}
+
+#footer ul li a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: all ease-out 0.2s;
+}
+
+#footer ul li a:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+#footer ul li a img {
+    max-height: 20px;
+}
 /* /CONTATO */
