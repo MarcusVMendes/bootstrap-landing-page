@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do projeto bootstrap landing page!
 
-A proposta do projeto é a de exercitar o uso da ferramenta Bootstrap no desenvolvimento de páginas web responsivas bem como aprimorar o uso do CSS.
+A proposta do projeto é a de exercitar o uso da ferramenta Bootstrap 5 no desenvolvimento de páginas web responsivas bem como aprimorar o uso do CSS.
 
 # Habilidades
 
@@ -8,25 +8,8 @@ A proposta do projeto é a de exercitar o uso da ferramenta Bootstrap no desenvo
 * Utilização do grid Bootstrap
 * Aplicação de responsividade com Bootstrap
 * Efeito de light box utilizando a lib Magnific Popup
-* Filtrar imagens utilizando a lib Isotope<br><br>
-
-
-# Boas vindas ao repositório do projeto frontend online store!
-
-
-Este projeto foi desenvolvido por [MarcusVMendes](http://www.linkedin.com/in/marcusvmendes-dev) enquanto estudante de Desenvolvimento Web Full Stack na [Trybe](https://www.linkedin.com/school/betrybe/) no periodo 2021/2022, como requisito parcial para aprovação de módulo.  #vqv 🚀
-
-A proposta do projeto é desenvolver uma single-page application utilizando componentes React com estado e ciclo, bem como rotas, por meio da lib React Router.
-
-
-# Habilidades
-
-* Entender o que são Métodos Ágeis
-* Entender o que é Kanban
-* Entender o que é Scrum
-* Trabalhar em equipes utilizando Kanban ou Scrum de maneira eficaz
-* Praticar todas as habilidades desenvolvidas até agora no módulo de Front-End.<br><br>
-
+* Filtrar imagens utilizando a lib Isotope
+* Efeito carousel utilizando a lib Owl Carousel<br><br>
 
 # Instalação do projeto localmente
 
