@@ -51,4 +51,9 @@
     #footer .email button {
         margin-left: 0;
     }
+
+    #footer ul {
+        padding-top: 30px;
+        justify-content: center;
+    }
 }
