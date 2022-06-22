@@ -150,3 +150,30 @@ body, html {
 }
 
 /* /SERVICOS */
+
+/* DEPOIMENTOS */
+#depoimentos .depoimento {
+    background: var(--light);
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+}
+
+#depoimentos .depoimento .quote {
+    max-width: 35px;
+}
+
+#depoimentos .depoimento .name {
+    color: #aaaaaa
+}
+
+#depoimentos .depoimento .name span {
+    color: #000;
+    font-weight: 700;
+}
+
+#depoimentos .depoimento-texto {
+    margin-left: 20px;
+    text-align: justify;
+}
+/* /DEPOIMENTOS */

@@ -38,6 +38,28 @@ jQuery(document).ready(function ($) {
             tCounter: "%curr% de %total%"
         }
     });
+
+    // Owl Carousel
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        dots: true,
+        lazyLoad: true,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 1,
+            },
+            1000: {
+                items: 2,
+            },
+        },
+    });
 });
 
 /*
@@ -46,4 +68,7 @@ https://isotope.metafizzy.co/
 
 Light Box Effect:
 https://dimsemenov.com/plugins/magnific-popup/
+
+Owl Carousel
+https://owlcarousel2.github.io/OwlCarousel2/
 */
