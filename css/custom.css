@@ -177,3 +177,38 @@ body, html {
     text-align: justify;
 }
 /* /DEPOIMENTOS */
+
+/* CONTATO */
+#footer .email {
+    border-radius: 5px;
+    background: var(--secondary);
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+}
+
+#footer .email img {
+    position: absolute;
+    left: 30px;
+    top: -30px;
+}
+
+#footer .email form {
+    width: 60%;
+    display: flex;
+}
+
+#footer .email .form-control,
+#footer .email .form-control::placeholder {
+    background: none;
+    color: #fff;
+}
+
+#footer .email button {
+    margin-left: 20px;
+}
+/* /CONTATO */
