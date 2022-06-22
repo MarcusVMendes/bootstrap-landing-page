@@ -7,6 +7,11 @@
         margin-left: 0;
         margin-right: 0;
     }
+
+    #footer .email img {
+        width: 90px;
+        top: -40px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -32,5 +37,18 @@
 
     #clientes .cliente-texto div{
         margin-left: 8px;
+    }
+
+    #footer .email {
+        padding: 60px 30px 50px 30px;
+    }
+
+    #footer .email form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #footer .email button {
+        margin-left: 0;
     }
 }
